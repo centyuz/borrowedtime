@@ -20,6 +20,10 @@
       "en": "You are not registered, type `register` to continue.",
       "id": "Kamu belum terdaftar, ketik `register` untuk melanjutkan."
     },
+    "booster": {
+      "en": "**Booster Exclusive**\n-# Boost this server to unlock this command and other exclusive benefits!",
+      "id": "**Eksklusif Booster**\n-# Boost server ini untuk membuka command ini dan manfaat eksklusif lainnya!"
+    },
     "cooldown": {
       "en": "You are on cooldown, retry <t:$sum[$getTimestamp;$getCooldown[global]]:R>.",
       "id": "Kamu sedang cooldown, coba lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R>."
@@ -32,6 +36,10 @@
       "en": "You have already claimed your hourly, come back <t:$sum[$getTimestamp;$getCooldown[global]]:R> for the next one.",
       "id": "Kamu sudah mengklaim hadiah per jam, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> untuk berikutnya."
     },
+    "cooldown_weekly": {
+      "en": "You have already claimed your weekly, come back <t:$sum[$getTimestamp;$getCooldown[global]]:R> for the next one.",
+      "id": "Kamu sudah mengklaim hadiah mingguan, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> untuk berikutnya."
+    },
     "daily": {
       "en": "**Daily Reward**\n-# $if[$var[streak]>1]You are on a **$numberSeparator[$var[streak];$json[sep]]**-day streak! You $elseYou checked in and $endifreceived:",
       "id": "**Hadiah Harian**\n-# $if[$var[streak]>1]**$numberSeparator[$var[streak];$json[sep]]** hari berturut-turut! Kamu $elseKamu telah cek masuk dan $endifmenerima:"
@@ -39,6 +47,10 @@
     "hourly": {
       "en": "**Hourly Reward**\n-# You checked in and received:",
       "id": "**Hadiah Per Jam**\n-# Kamu telah cek masuk dan menerima:"
+    },
+    "weekly": {
+      "en": "**Weekly Reward**\n-# You checked in and received:",
+      "id": "**Hadiah Mingguan**\n-# Kamu telah cek masuk dan menerima:"
     },
     "streak_ended": {
       "en": "**Oops, Your Streak Ended**\n-# You missed your daily for **$numberSeparator[$var[forgot];$json[sep]]** days and lost your **$numberSeparator[$var[streak];$json[sep]]**-day streak",
