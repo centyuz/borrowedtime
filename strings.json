@@ -84,13 +84,13 @@
       "en": "**Number Separator**\n-# Select a symbol to separate thousands",
       "id": "**Pemisah Angka**\n-# Pilih simbol buat misahin angka ribuan"
     },
-    "select_language": {
-      "en": "Select a language",
-      "id": "Pilih bahasa"
+    "settings_shield": {
+      "en": "**Shield Toggle**\n-# Stay protected from rob attempts",
+      "id": "**Status Perisai**\n-# Biar tetep aman dari perampokan"
     },
-    "select_separator": {
-      "en": "Select a separator",
-      "id": "Pilih pemisah"
+    "make_a_selection": {
+      "en": "Make a selection",
+      "id": "Buat pilihan"
     },
     "example": {
       "en": "Example:",
@@ -107,6 +107,14 @@
     "none": {
       "en": "None",
       "id": "Tidak ada"
+    },
+    "on": {
+      "en": "On",
+      "id": "Nyala"
+    },
+    "off": {
+      "en": "Off",
+      "id": "Mati"
     }
   }
 }
