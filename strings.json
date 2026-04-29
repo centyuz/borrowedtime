@@ -115,6 +115,26 @@
     "off": {
       "en": "Off",
       "id": "Mati"
+    },
+    "empty_inventory": {
+      "en": "Nothing to see here, your inventory is empty.",
+      "id": "Nggak ada apa-apa di sini, inventorimu masih kosong."
+    },
+    "bnote": {
+      "en": "**Bank Note**\n-# Raises maximum bank capacity by 75 coins per note, consumed on use",
+      "id": "**Bank Note**\n-# Menambah kapasitas maksimal bank sebesar 75 koin per note, kepakai satu saat digunakan"
+    },
+    "box": {
+      "en": "**Mystery Box**\n-# Unbox to receive a variety of rewards",
+      "id": "**Kotak Misteri**\n-# Buka buat dapetin berbagai macam hadiah"
+    },
+    "tfpass": {
+      "en": "**Gift Pass**\n-# Grants a one-time coin gifting to another user, consumed on use",
+      "id": "**Gift Pass**\n-# Memberikan sekali kesempatan buat ngirim koin ke user lain, kepakai satu saat digunakan"
+    },
+    "shield": {
+      "en": "**Shield**\n-# Provides a high chance to block a rob attempt, consumed per attempt",
+      "id": "**Perisai**\n-# Memberi peluang besar buat nahan perampokan, kepakai tiap kali ada percobaan"
     }
   }
 }
