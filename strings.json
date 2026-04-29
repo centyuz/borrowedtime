@@ -68,6 +68,10 @@
       "en": "You are in $var[#top] place",
       "id": "Kamu ada di peringkat ke-$replaceText[$replaceText[$replaceText[$replaceText[$var[#top];st;];nd;];rd;];th;]"
     },
+    "me_bank": {
+      "en": "Your bank is $var[bank%]% full",
+      "id": "Bank kamu terisi $replaceText[$var[bank%];.;,]%"
+    },
     "me_point": {
       "en": "You need $numberSeparator[$var[pts-];$json[sep]] points to level up",
       "id": "Kamu butuh $numberSeparator[$var[pts-];$json[sep]] poin buat naik level"
