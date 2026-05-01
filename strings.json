@@ -161,8 +161,8 @@
       "id": "**Deposit Berhasil**\n-# Koin dimasukkin ke bank dengan jumlah:"
     },
     "deposit_fail": {
-      "en": "Your bank is full, use **$json[bnoteIcon] $json[bnote]** to increase your maximum bank capacity.",
-      "id": "Bank udah penuh, pakai **$json[bnoteIcon] $json[bnote]** buat nambah kapasitas maksimal bank."
+      "en": "Your bank is full, use **$json[bnoteIcon] Bank Note** to increase your maximum bank capacity.",
+      "id": "Bank udah penuh, pakai **$json[bnoteIcon] Bank Note** buat nambah kapasitas maksimal bank."
     },
     "withdraw": {
       "en": "**Withdrawal Successful**\n-# Coins withdrawn from your bank with amount:",
@@ -217,8 +217,8 @@
       "id": "Kamu butuh koin dulu sebelum melakukan ini."
     },
     "insufficient_tfpass": {
-      "en": "You need **$json[tfpassIcon] $json[tfpass]** to give coins.",
-      "id": "Kamu butuh **$json[tfpassIcon] $json[tfpass]** buat ngirim koin."
+      "en": "You need **$json[tfpassIcon] Gift Pass** to give coins.",
+      "id": "Kamu butuh **$json[tfpassIcon] Tiket Gift** buat ngirim koin."
     },
     "insufficient_box": {
       "en": "You do not have any boxes.",
