@@ -28,6 +28,30 @@
       "en": "**Booster Exclusive**\n-# Boost this server to unlock this command and other exclusive benefits!",
       "id": "**Eksklusif Booster**\n-# Boost server ini untuk membuka command ini dan dapetin benefit eksklusif lainnya!"
     },
+    "invalid_n": {
+      "en": "Invalid input, please enter a positive integer amount.",
+      "id": "Input nggak valid, coba ketik bilangan bulat positif."
+    },
+    "invalid_@": {
+      "en": "Invalid input, please specify a valid user.",
+      "id": "Input nggak valid, coba mention user yang valid."
+    },
+    "invalid_@unregistered": {
+      "en": "The target has not registered yet.",
+      "id": "Target belum terdaftar."
+    },
+    "invalid_@self": {
+      "en": "The target cannot be yourself.",
+      "id": "Target nggak bisa diri sendiri"
+    },
+    "invalid_@bot": {
+      "en": "The target cannot be a bot.",
+      "id": "Target nggak boleh berupa bot."
+    },
+    "invalid_@toopoor": {
+      "en": "The target is too poor to rob.",
+      "id": "Target terlalu miskin buat dirampok."
+    },
     "cooldown": {
       "en": "You are on cooldown, retry <t:$sum[$getTimestamp;$getCooldown[global]]:R>.",
       "id": "Kamu lagi kena cooldown, coba lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R>."
@@ -139,6 +163,18 @@
     "shield": {
       "en": "**Shield**\n-# Provides a high chance to block a rob attempt, consumed per attempt",
       "id": "**Perisai**\n-# Memberi peluang besar buat nahan perampokan, kepakai tiap kali ada percobaan"
+    },
+    "insufficient_rob": {
+      "en": "You need some coins before attempting this.",
+      "id": "Kamu butuh koin dulu sebelum melakukan ini."
+    },
+    "rob_success": {
+      "en": "**Rob Successful**\n-# $if[$var[protected]==true]The shield failed to stop you this time$elseYou slipped in and out with your reward:$endif",
+      "id": "**Perampokan Berhasil**\n-# $if[$var[protected]==true]Perisainya gagal ngehentiin kali ini$elseKamu berhasil ngerampok dia dan dapet:$endif"
+    },
+    "rob_faill": {
+      "en": "**Rob Failed**\n-# $if[$var[protected]==true]Their shield stopped you before you could act$elseThe attempt failed and you were fined:$endif",
+      "id": "**Perampokan Gagal**\n-# $if[$var[protected]==true]Perisainya ngehentiin kamu sebelum beraksi$elsePercobaanmu gagal dan harus bayar denda:$endif"
     }
   }
 }
