@@ -42,7 +42,7 @@
     },
     "invalid_@self": {
       "en": "The target cannot be yourself.",
-      "id": "Target nggak bisa diri sendiri"
+      "id": "Target nggak bisa diri sendiri."
     },
     "invalid_@bot": {
       "en": "The target cannot be a bot.",
@@ -71,6 +71,10 @@
     "cooldown_weekly": {
       "en": "You have already claimed your weekly, come back <t:$sum[$getTimestamp;$getCooldown[global]]:R> for the next one.",
       "id": "Kamu udah klaim hadiah mingguan, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> buat klaim berikutnya."
+    },
+    "levelup": {
+      "en": "**Level Up!**\n-# You reached level **$numberSeparator[$var[lvl];$json[sep]]** and received:",
+      "id": "**Naik Level**\n-# Level **$numberSeparator[$var[lvl];$json[sep]]** telah diraih! Kamu dapet:"
     },
     "daily": {
       "en": "**Daily Reward**\n-# $if[$var[streak]>1]You are on a **$numberSeparator[$var[streak];$json[sep]]**-day streak! You $elseYou checked in and $endifreceived:",
