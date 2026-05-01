@@ -17,8 +17,8 @@
       "id": "**Akses Ditolak**\n-# Akunmu ditandai karena terindikasi aktivitas bot. Jika kamu yakin ini keliru, bisa hubungi <@782922849169178657>"
     },
     "not_registered": {
-      "en": "You are not registered, type `register` to continue.",
-      "id": "Kamu belum terdaftar, ketik `register` untuk mendaftar."
+      "en": "You are not registered, type `.register` to continue.",
+      "id": "Kamu belum terdaftar, ketik `.register` untuk mendaftar."
     },
     "invalid_interaction": {
       "en": "This interaction is not for you.",
@@ -177,20 +177,36 @@
       "id": "Nggak ada apa-apa di sini, inventorimu masih kosong."
     },
     "bnote": {
-      "en": "**Bank Note**\n-# Raises maximum bank capacity by 75 coins per note, consumed on use",
-      "id": "**Bank Note**\n-# Menambah kapasitas maksimal bank sebesar 75 koin per note, kepakai satu saat digunakan"
+      "en": "Bank Note",
+      "id": "Bank Note"
     },
     "box": {
-      "en": "**Mystery Box**\n-# Unbox to receive a variety of rewards",
-      "id": "**Kotak Misteri**\n-# Buka buat dapetin berbagai macam hadiah"
+      "en": "Mystery Box",
+      "id": "Kotak Misteri"
     },
     "tfpass": {
-      "en": "**Gift Pass**\n-# Grants a one-time coin gifting to another user, consumed on use",
-      "id": "**Gift Pass**\n-# Memberi kesempatan sekali buat ngirim koin ke user lain, kepakai satu saat digunakan"
+      "en": "Gift Pass",
+      "id": "Tiket Gift"
     },
     "shield": {
-      "en": "**Shield**\n-# Provides a high chance to block a rob attempt, consumed per attempt",
-      "id": "**Perisai**\n-# Memberi peluang besar buat nahan perampokan, kepakai tiap kali ada percobaan"
+      "en": "Shield",
+      "id": "Perisai"
+    },
+    "bnote_desc": {
+      "en": "Raises maximum bank capacity by 75 coins per note, consumed on use",
+      "id": "Menambah kapasitas maksimal bank sebesar 75 koin per note, kepakai satu saat digunakan"
+    },
+    "box_desc": {
+      "en": "Unbox to receive a variety of rewards",
+      "id": "Buka buat dapetin berbagai macam hadiah"
+    },
+    "tfpass_desc": {
+      "en": "Grants a one-time coin gifting to another user, consumed on use",
+      "id": "Memberi kesempatan sekali buat ngirim koin ke user lain, kepakai satu saat digunakan"
+    },
+    "shield_desc": {
+      "en": "Provides a high chance to block a rob attempt, consumed per attempt",
+      "id": "Memberi peluang besar buat nahan perampokan, kepakai tiap kali ada percobaan"
     },
     "insufficient_coin": {
       "en": "You do not have any coins.",
