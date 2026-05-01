@@ -52,6 +52,10 @@
       "en": "The target is too poor to rob.",
       "id": "Target terlalu miskin buat dirampok."
     },
+    "invalid_args": {
+      "en": "Please specify valid arguments.",
+      "id": "Input nggak valid, coba ketik jumlah argumen yang pas."
+    },
     "cooldown": {
       "en": "You are on cooldown, retry <t:$sum[$getTimestamp;$getCooldown[global]]:R>.",
       "id": "Kamu lagi kena cooldown, coba lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R>."
@@ -148,6 +152,22 @@
       "en": "Off",
       "id": "Mati"
     },
+    "deposit": {
+      "en": "**Deposit Successful**\n-# Coins added to your bank with amount:",
+      "id": "**Deposit Berhasil**\n-# Koin dimasukkin ke bank dengan jumlah:"
+    },
+    "deposit_fail": {
+      "en": "Your bank is full, use **$json[bnoteIcon] Bank Note** to increase your maximum bank capacity.",
+      "id": "Bank udah penuh, pakai **$json[bnoteIcon] Bank Note** buat nambah kapasitas maksimal bank."
+    },
+    "withdraw": {
+      "en": "**Withdrawal Successful**\n-# Coins withdrawn from your bank with amount:",
+      "id": "**Penarikan Berhasil**\n-# Koin ditarik dari bank dengan jumlah:**"
+    },
+    "withdraw_fail": {
+      "en": "Your bank is empty, there are no coins to withdraw.",
+      "id": "Bank kamu kosong, nggak ada koin yang bisa ditarik."
+    },
     "empty_inventory": {
       "en": "Nothing to see here, your inventory is empty.",
       "id": "Nggak ada apa-apa di sini, inventorimu masih kosong."
@@ -167,6 +187,10 @@
     "shield": {
       "en": "**Shield**\n-# Provides a high chance to block a rob attempt, consumed per attempt",
       "id": "**Perisai**\n-# Memberi peluang besar buat nahan perampokan, kepakai tiap kali ada percobaan"
+    },
+    "insufficient": {
+      "en": "You do not have any coins.",
+      "id": "Kamu tidak punya koin."
     },
     "insufficient_rob": {
       "en": "You need some coins before attempting this.",
