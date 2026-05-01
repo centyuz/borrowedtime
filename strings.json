@@ -197,8 +197,8 @@
       "id": "Menambah kapasitas maksimal bank sebesar 75 koin per note, kepakai satu saat digunakan"
     },
     "box_desc": {
-      "en": "Unbox to receive a variety of rewards",
-      "id": "Buka buat dapetin berbagai macam hadiah"
+      "en": "Unbox to receive a variety of rewards, consumed on use",
+      "id": "Buka buat dapetin berbagai macam hadiah, kepakai satu saat digunakan"
     },
     "tfpass_desc": {
       "en": "Grants a one-time coin gifting to another user, consumed on use",
