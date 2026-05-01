@@ -258,31 +258,19 @@
     },
     "new_stock": {
       "en": "New stock will arrive <t:$var[shopReset]:R>",
-      "id": "Stok baru bakal datang <t:$var[shopReset]:R>"
+      "id": "Stok baru bakal hadir <t:$var[shopReset]:R>"
     },
-    "stock_left_1": {
-      "en": "**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** stock$if[$json[shopSlot1Stock]>1]s$endif left",
-      "id": "**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** stok tersisa"
+    "shop_slot_1": {
+      "en": "$if[$json[shopSlot1Stock]<1]Out of stock$else**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** stock$if[$json[shopSlot1Stock]>1]s$endif left$endif, $if[$json[shopSlot1MaxBuy]<1]purchase limit exceeded$else**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** purchase$if[$json[shopSlot1MaxBuy]>1]s$endif left$endif",
+      "id": "$if[$json[shopSlot1Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** stok tersisa$endif, $if[$json[shopSlot1MaxBuy]<1]batas beli terlampaui$else**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** pembelian tersisa$endif"
     },
-    "purchase_left_1": {
-      "en": "**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** purchase$if[$json[shopSlot1MaxBuy]>1]s$endif left",
-      "id": "**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** pembelian tersisa"
+    "shop_slot_2": {
+      "en": "$if[$json[shopSlot2Stock]<1]Out of stock$else**$numberSeparator[$json[shopSlot2Stock];$json[sep]]** stock$if[$json[shopSlot2Stock]>1]s$endif left$endif, $if[$json[shopSlot2MaxBuy]<1]purchase limit exceeded$else**$numberSeparator[$json[shopSlot2MaxBuy];$json[sep]]** purchase$if[$json[shopSlot2MaxBuy]>1]s$endif left$endif",
+      "id": "$if[$json[shopSlot2Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot2Stock];$json[sep]]** stok tersisa$endif, $if[$json[shopSlot2MaxBuy]<1]batas beli terlampaui$else**$numberSeparator[$json[shopSlot2MaxBuy];$json[sep]]** pembelian tersisa$endif"
     },
-    "stock_left_2": {
-      "en": "**$numberSeparator[$json[shopSlot2Stock];$json[sep]]** stock$if[$json[shopSlot2Stock]>1]s$endif left",
-      "id": "**$numberSeparator[$json[shopSlot2Stock];$json[sep]]** stok tersisa"
-    },
-    "purchase_left_2": {
-      "en": "**$numberSeparator[$json[shopSlot2MaxBuy];$json[sep]]** purchase$if[$json[shopSlot2MaxBuy]>1]s$endif left",
-      "id": "**$numberSeparator[$json[shopSlot2MaxBuy];$json[sep]]** pembelian tersisa"
-    },
-    "stock_left_3": {
-      "en": "**$numberSeparator[$json[shopSlot3Stock];$json[sep]]** stock$if[$json[shopSlot3Stock]>1]s$endif left",
-      "id": "**$numberSeparator[$json[shopSlot3Stock];$json[sep]]** stok tersisa"
-    },
-    "purchase_left_3": {
-      "en": "**$numberSeparator[$json[shopSlot3MaxBuy];$json[sep]]** purchase$if[$json[shopSlot3MaxBuy]>1]s$endif left",
-      "id": "**$numberSeparator[$json[shopSlot3MaxBuy];$json[sep]]** pembelian tersisa"
+    "shop_slot_3": {
+      "en": "$if[$json[shopSlot3Stock]<1]Out of stock$else**$numberSeparator[$json[shopSlot3Stock];$json[sep]]** stock$if[$json[shopSlot3Stock]>1]s$endif left$endif, $if[$json[shopSlot3MaxBuy]<1]purchase limit exceeded$else**$numberSeparator[$json[shopSlot3MaxBuy];$json[sep]]** purchase$if[$json[shopSlot3MaxBuy]>1]s$endif left$endif",
+      "id": "$if[$json[shopSlot3Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot3Stock];$json[sep]]** stok tersisa$endif, $if[$json[shopSlot3MaxBuy]<1]batas beli terlampaui$else**$numberSeparator[$json[shopSlot3MaxBuy];$json[sep]]** pembelian tersisa$endif"
     },
     "out_of_stock": {
       "en": "Out of stock",
@@ -291,6 +279,10 @@
     "exceed_purchase": {
       "en": "purchase limit exceeded",
       "id": "batas pembelian terlampaui"
+    },
+    "free": {
+      "en": "Free",
+      "id": "Gratis"
     }
   }
 }
