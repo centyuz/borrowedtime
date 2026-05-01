@@ -188,7 +188,7 @@
       "en": "**Shield**\n-# Provides a high chance to block a rob attempt, consumed per attempt",
       "id": "**Perisai**\n-# Memberi peluang besar buat nahan perampokan, kepakai tiap kali ada percobaan"
     },
-    "insufficient": {
+    "insufficient_coin": {
       "en": "You do not have any coins.",
       "id": "Kamu tidak punya koin."
     },
@@ -200,7 +200,7 @@
       "en": "**Rob Successful**\n-# $if[$var[protected]==true]The shield failed to stop you this time$elseYou slipped in and out with your reward:$endif",
       "id": "**Perampokan Berhasil**\n-# $if[$var[protected]==true]Perisainya gagal ngehentiin kali ini$elseKamu berhasil ngerampok dia dan dapet:$endif"
     },
-    "rob_faill": {
+    "rob_fail": {
       "en": "**Rob Failed**\n-# $if[$var[protected]==true]Their shield stopped you before you could act$elseThe attempt failed and you were fined:$endif",
       "id": "**Perampokan Gagal**\n-# $if[$var[protected]==true]Perisainya ngehentiin kamu sebelum beraksi$elsePercobaanmu gagal dan harus bayar denda:$endif"
     }
