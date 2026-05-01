@@ -226,7 +226,7 @@
     },
     "unbox": {
       "en": "**Unbox Summary**\n-# You opened $if[$var[x]>1]**$numberSeparator[$var[x];$json[sep]]** boxes$elsea box$endif and received:",
-      "id": "Kotak Dibuka\n-# Kamu membuka $if[$var[x]>1]**$numberSeparator[$var[x];$json[sep]]** kotak$elsesebuah kotak$endif dan dapet:"
+      "id": "**Kotak Dibuka**\n-# Kamu membuka $if[$var[x]>1]**$numberSeparator[$var[x];$json[sep]]** kotak$elsesebuah kotak$endif dan dapet:"
     },
     "rob_success": {
       "en": "**Rob Successful**\n-# $if[$var[protected]==true]The shield failed to stop you this time$elseYou slipped in and out with your reward:$endif",
