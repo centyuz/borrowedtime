@@ -56,6 +56,10 @@
       "en": "Please specify valid arguments.",
       "id": "Input nggak valid, coba ketik jumlah argumen yang pas."
     },
+    "invalid_item": {
+      "en": "No item found with that name or the item cannot be used, please specify a valid item name.",
+      "id": "Nggak ada item dengan nama itu atau item nggak bisa dipakai, coba ketik nama item yang valid."
+    },
     "cooldown": {
       "en": "You are on cooldown, retry <t:$sum[$getTimestamp;$getCooldown[global]]:R>.",
       "id": "Kamu lagi kena cooldown, coba lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R>."
@@ -162,7 +166,7 @@
     },
     "withdraw": {
       "en": "**Withdrawal Successful**\n-# Coins withdrawn from your bank with amount:",
-      "id": "**Penarikan Berhasil**\n-# Koin ditarik dari bank dengan jumlah:**"
+      "id": "**Penarikan Berhasil**\n-# Koin ditarik dari bank dengan jumlah:"
     },
     "withdraw_fail": {
       "en": "Your bank is empty, there are no coins to withdraw.",
@@ -190,11 +194,39 @@
     },
     "insufficient_coin": {
       "en": "You do not have any coins.",
-      "id": "Kamu tidak punya koin."
+      "id": "Kamu nggak punya koin."
     },
     "insufficient_rob": {
       "en": "You need some coins before attempting this.",
       "id": "Kamu butuh koin dulu sebelum melakukan ini."
+    },
+    "insufficient_tfpass": {
+      "en": "You need **$json[tfpassIcon] Gift Pass** to give coins.",
+      "id": "Kamu butuh **$json[tfpassIcon] Gift Pass** buat ngirim koin."
+    },
+    "insufficient_box": {
+      "en": "You do not have any boxes.",
+      "id": "Kamu nggak punya kotak."
+    },
+    "item_not_found": {
+      "en": "Item not found in your inventory.",
+      "id": "Item nggak ditemukan di inventorimu."
+    },
+    "use_header": {
+      "en": "$replaceText[$var[item];bnote;Bank Note] Used",
+      "id": "$replaceText[$var[item];bnote;Bank Note] Dipakai"
+    },
+    "use_desc_bnote": {
+      "en": "Your maximum bank capacity has raised by:",
+      "id": "Kapasitas maksimal bank kamu nambah sebesar:"
+    },
+    "gift_sent": {
+      "en": "**Gift Sent Successfully**\n-# Your gift has been sent to <@$var[target]>",
+      "id": "**Gift Berhasil Dikirim**\n-# Gift-mu berhasil dikirim ke <@$var[target]>"
+    },
+    "unbox": {
+      "en": "**Unbox Summary**\n-# You opened $if[$var[x]>1]**$numberSeparator[$var[x];$json[sep]]** boxes$elsea box$endif and received:",
+      "id": "Kotak Dibuka\n-# Kamu membuka $if[$var[x]>1]**$numberSeparator[$var[x];$json[sep]]** kotak$elsesebuah kotak$endif dan dapet:"
     },
     "rob_success": {
       "en": "**Rob Successful**\n-# $if[$var[protected]==true]The shield failed to stop you this time$elseYou slipped in and out with your reward:$endif",
