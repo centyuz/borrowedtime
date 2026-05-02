@@ -257,7 +257,7 @@
       "id": "Selamat Datang di Toko!"
     },
     "new_stock": {
-      "en": "New merchant will arrive <t:$var[shopReset]:R>",
+      "en": "Next merchant will arrive <t:$var[shopReset]:R>",
       "id": "Toko bakal di-refresh <t:$var[shopReset]:R>"
     },
     "shop_slot_1": {
