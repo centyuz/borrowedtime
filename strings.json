@@ -81,7 +81,7 @@
       "id": "Kamu udah klaim hadiah mingguan, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> buat klaim berikutnya."
     },
     "levelup": {
-      "en": "**Level up!**\n-# You reached level **$numberSeparator[$var[lvl];$json[sep]]** and received:",
+      "en": "**Level Up**\n-# You reached level **$numberSeparator[$var[lvl];$json[sep]]** and received:",
       "id": "**Naik Level**\n-# Level **$numberSeparator[$var[lvl];$json[sep]]** telah diraih! Kamu dapet:"
     },
     "daily": {
@@ -253,32 +253,28 @@
       "id": "**Perampokan Gagal**\n-# $if[$var[protected]==true]Perisainya ngehentiin kamu sebelum beraksi$elsePercobaanmu gagal dan harus bayar denda:$endif"
     },
     "shop": {
-      "en": "Welcome to the Shop!",
-      "id": "Selamat Datang di Toko!"
+      "en": "Welcome to the Shop",
+      "id": "Selamat Datang di Toko"
     },
     "new_stock": {
       "en": "Next merchant will arrive <t:$var[shopReset]:R>",
-      "id": "Toko bakal di-refresh <t:$var[shopReset]:R>"
+      "id": "Pedagang baru bakal dateng <t:$var[shopReset]:R>"
     },
     "shop_slot_1": {
       "en": "$if[$json[shopSlot1Stock]<1]Out of stock$else**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** in stock$endif, $if[$json[shopSlot1MaxBuy]<1]purchase limit exceeded$else**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** purchase$if[$json[shopSlot1MaxBuy]>1]s$endif left$endif",
-      "id": "$if[$json[shopSlot1Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** stok tersedia$endif, $if[$json[shopSlot1MaxBuy]<1]batas beli terlampaui$else**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** pembelian tersisa$endif"
+      "id": "$if[$json[shopSlot1Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** stok tersedia$endif, $if[$json[shopSlot1MaxBuy]<1]batas beli tercapai$else**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** pembelian tersisa$endif"
     },
     "shop_slot_2": {
       "en": "$if[$json[shopSlot2Stock]<1]Out of stock$else**$numberSeparator[$json[shopSlot2Stock];$json[sep]]** in stock$endif, $if[$json[shopSlot2MaxBuy]<1]purchase limit exceeded$else**$numberSeparator[$json[shopSlot2MaxBuy];$json[sep]]** purchase$if[$json[shopSlot2MaxBuy]>1]s$endif left$endif",
-      "id": "$if[$json[shopSlot2Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot2Stock];$json[sep]]** stok tersedia$endif, $if[$json[shopSlot2MaxBuy]<1]batas beli terlampaui$else**$numberSeparator[$json[shopSlot2MaxBuy];$json[sep]]** pembelian tersisa$endif"
+      "id": "$if[$json[shopSlot2Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot2Stock];$json[sep]]** stok tersedia$endif, $if[$json[shopSlot2MaxBuy]<1]batas beli tercapai$else**$numberSeparator[$json[shopSlot2MaxBuy];$json[sep]]** pembelian tersisa$endif"
     },
     "shop_slot_3": {
       "en": "$if[$json[shopSlot3Stock]<1]Out of stock$else**$numberSeparator[$json[shopSlot3Stock];$json[sep]]** in stock$endif, $if[$json[shopSlot3MaxBuy]<1]purchase limit exceeded$else**$numberSeparator[$json[shopSlot3MaxBuy];$json[sep]]** purchase$if[$json[shopSlot3MaxBuy]>1]s$endif left$endif",
-      "id": "$if[$json[shopSlot3Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot3Stock];$json[sep]]** stok tersedia$endif, $if[$json[shopSlot3MaxBuy]<1]batas beli terlampaui$else**$numberSeparator[$json[shopSlot3MaxBuy];$json[sep]]** pembelian tersisa$endif"
+      "id": "$if[$json[shopSlot3Stock]<1]Stok habis$else**$numberSeparator[$json[shopSlot3Stock];$json[sep]]** stok tersedia$endif, $if[$json[shopSlot3MaxBuy]<1]batas beli tercapai$else**$numberSeparator[$json[shopSlot3MaxBuy];$json[sep]]** pembelian tersisa$endif"
     },
-    "out_of_stock": {
-      "en": "Out of stock",
-      "id": "Stok habis"
-    },
-    "exceed_purchase": {
-      "en": "purchase limit exceeded",
-      "id": "batas pembelian terlampaui"
+    "balance_desc": {
+      "en": "This is your current balance",
+      "id": "Ini adalah saldomu saat ini"
     },
     "free": {
       "en": "Free",
