@@ -102,15 +102,15 @@
     },
     "me_top": {
       "en": "You are in $var[#top] place",
-      "id": "Berada di peringkat ke-$replaceText[$replaceText[$replaceText[$replaceText[$var[#top];st;];nd;];rd;];th;]"
+      "id": "Kamu berada di peringkat ke-$replaceText[$replaceText[$replaceText[$replaceText[$var[#top];st;];nd;];rd;];th;]"
     },
     "me_bank": {
       "en": "Your bank is $var[bank%]% full",
-      "id": "Bank kamu terisi $replaceText[$var[bank%];.;,]%"
+      "id": "Bank kamu terisi sebanyak $replaceText[$var[bank%];.;,]%"
     },
     "me_point": {
-      "en": "You need $numberSeparator[$var[pts-];$json[sep]] point$if[$var[pts-]>1]s$endif to level up",
-      "id": "Butuh $numberSeparator[$var[pts-];$json[sep]] poin buat naik level"
+      "en": "You need $numberSeparator[$var[pts-];$json[sep]] star$if[$var[pts-]>1]s$endif to level up",
+      "id": "Kamu butuh $numberSeparator[$var[pts-];$json[sep]] bintang buat naik level"
     },
     "setting_updated": {
       "en": "Setting has been updated.",
