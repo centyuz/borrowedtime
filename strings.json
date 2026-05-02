@@ -274,11 +274,19 @@
     },
     "balance_desc": {
       "en": "This is your current balance",
-      "id": "Ini adalah saldomu saat ini"
+      "id": "Ini adalah saldomu sekarang"
     },
     "free": {
       "en": "Free",
       "id": "Gratis"
+    },
+    "buy": {
+      "en": "Buy",
+      "id": "Beli"
+    },
+    "sell": {
+      "en": "Sell",
+      "id": "Jual"
     }
   }
 }
