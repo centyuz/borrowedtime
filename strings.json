@@ -13,8 +13,8 @@
       "id": "**Pendaftaran Berhasil**\n-# Kamu dapet bonus kecil untuk memulai:"
     },
     "access_denied": {
-      "en": "**Access Denied**\n-# Your account has been flagged for potential bot activity. If you believe this is a mistake, please contact <@782922849169178657>",
-      "id": "**Akses Ditolak**\n-# Akunmu ditandai karena terindikasi aktivitas bot. Jika kamu yakin ini keliru, bisa hubungi <@782922849169178657>"
+      "en": "Access denied, your account has been flagged for potential bot activity.",
+      "id": "Akses ditolak, akunmu telah ditandai karena terindikasi adanya aktivitas bot."
     },
     "not_registered": {
       "en": "You are not registered, type `.register` to continue.",
