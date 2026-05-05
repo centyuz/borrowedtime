@@ -98,7 +98,7 @@
     },
     "streak_ended": {
       "en": "**Oops, Your Streak Ended**\n-# You missed your daily for **$numberSeparator[$var[forgot];$json[sep]]** days and lost your **$numberSeparator[$var[streak];$json[sep]]**-day streak",
-      "id": "**Yah, Streak-mu Hangus**\n-# Kamu lupa check-in selama **$numberSeparator[$var[forgot];$json[sep]]** hari dan streak **$numberSeparator[$var[streak];$json[sep]]** hari kamu hilang"
+      "id": "**Yah, Streak Hangus**\n-# Kamu lupa check-in selama **$numberSeparator[$var[forgot];$json[sep]]** hari dan streak **$numberSeparator[$var[streak];$json[sep]]** hari kamu hilang"
     },
     "me_top": {
       "en": "You are in $var[#top] place",
@@ -115,6 +115,14 @@
     "setting_updated": {
       "en": "Setting has been updated.",
       "id": "Setelan berhasil diperbarui."
+    },
+    "action_confirm": {
+      "en": "**Proceed with This?**\n-# This action cannot be undone",
+      "id": "**Lanjutin?**\n-# Aksi ini nggak bisa dikembaliin"
+    },
+    "action_canceled": {
+      "en": "**Maybe Next Time**\n-# This action has been canceled",
+      "id": "**Lain Kali Aja**\n-# Aksi ini dibatalin"
     },
     "settings_language": {
       "en": "**Language**\n-# Select your preferred language",
@@ -156,6 +164,18 @@
       "en": "Off",
       "id": "Mati"
     },
+    "confirm": {
+      "en": "Confirm",
+      "id": "Konfirmasi"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "id": "Batal"
+    },
+    "canceled": {
+      "en": "Canceled",
+      "id": "Dibatalin"
+    },
     "deposit": {
       "en": "**Deposit Successful**\n-# Coins added to your bank with amount:",
       "id": "**Deposit Berhasil**\n-# Koin dimasukkin ke bank dengan jumlah:"
@@ -173,8 +193,8 @@
       "id": "Bank kamu kosong, nggak ada koin yang bisa ditarik."
     },
     "empty_inventory": {
-      "en": "Nothing to see here, your inventory is empty.",
-      "id": "Nggak ada apa-apa di sini, inventorimu masih kosong."
+      "en": "Your inventory is empty.",
+      "id": "Inventorimu masih kosong."
     },
     "bnote": {
       "en": "Bank Note",
@@ -214,7 +234,7 @@
     },
     "insufficient_rob": {
       "en": "You need some coins before attempting this.",
-      "id": "Kamu butuh koin dulu sebelum melakukan ini."
+      "id": "Kamu butuh koin dulu sebelum ngelakuin ini."
     },
     "insufficient_tfpass": {
       "en": "You need **$json[tfpassIcon] Gift Pass** to give coins.",
@@ -236,9 +256,13 @@
       "en": "Your maximum bank capacity has raised by:",
       "id": "Kapasitas bank kamu nambah sebesar:"
     },
+    "gift_details": {
+      "en": "**Gift Details**\n-# Double-check the recipient before sending",
+      "id": "**Detail Gift**\n-# Cek lagi penerimanya sebelum ngirim"
+    },
     "gift_sent": {
-      "en": "**Gift Sent Successfully**\n-# Your gift has been sent to <@$var[target]>",
-      "id": "**Gift Berhasil Dikirim**\n-# Gift-mu berhasil dikirim ke <@$var[target]>"
+      "en": "**Gift Sent**\n-# Your gift reached the recipient",
+      "id": "**Gift Dikirim**\n-# Gift kamu udah sampai ke penerima"
     },
     "unbox": {
       "en": "**Unbox Summary**\n-# You opened $if[$var[x]>1]**$numberSeparator[$var[x];$json[sep]]** boxes$elsea box$endif and received:",
@@ -258,7 +282,7 @@
     },
     "new_stock": {
       "en": "Next merchant will arrive <t:$var[shopReset]:R>",
-      "id": "Pedagang baru bakal dateng <t:$var[shopReset]:R>"
+      "id": "Merchant baru bakal dateng <t:$var[shopReset]:R>"
     },
     "shop_slot_1": {
       "en": "$if[$json[shopSlot1Stock]<1]Out of stock$else**$numberSeparator[$json[shopSlot1Stock];$json[sep]]** in stock$endif, $if[$json[shopSlot1MaxBuy]<1]buy limit exceeded$else**$numberSeparator[$json[shopSlot1MaxBuy];$json[sep]]** buy$if[$json[shopSlot1MaxBuy]>1]s$endif left$endif, $if[$json[shopSlot1MaxSell]<1]sell limit exceeded$else**$numberSeparator[$json[shopSlot1MaxSell];$json[sep]]** sell$if[$json[shopSlot1MaxSell]>1]s$endif left$endif",
